@@ -1,0 +1,85 @@
+/* @import url("https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap");
+h1{
+    font-size:30px;
+    font-family: 'Big Shoulders Text','Noto Sans TC', sans-serif;
+    color:green;
+       
+}
+.大{
+    background-color: yellow;
+}
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif+TC&display=swap");
+body{
+    font-size:16px;
+    font-family:'Noto Sans TC', sans-serif;
+    
+}
+  .中{ 
+    color:red;
+}
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif+TC&display=swap");
+body2{
+    font-size:16px;
+    font-family:'Noto Sans TC', sans-serif;
+    
+}
+ .小{ 
+    color:black;
+}
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif+TC&display=swap");
+body3{
+    font-size:26px;
+    font-weight: bolder;
+    font-family:'Noto Sans TC', sans-serif;
+    
+}
+ .小{ 
+    color:rgb(36, 4, 122);
+}
+*{
+    box-sizing: boarder-box;
+    padding: 0;
+    margin: 0; 
+} */
+/* .homework {
+    width: 500px;
+    height:500px;
+    background-image: url{'images/bg2.JPG'};
+    background-size:contain;
+    background-repeat:no-repeat;
+    boarder: 1px solid red;
+    padding: 10px;
+    margin: 10px;
+    background-color:
+    box-sizing:boarder-box;
+} */
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url('images/bg2.JPG');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-me {
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+}
+.left {
+    height: 50%;
+    background-color: pink;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right {
+width: 50%;
+background-color: brown;
+background-image: url('images/online1.JPG');
+}
